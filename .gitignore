@@ -4,9 +4,8 @@ node_modules/
 # Logs
 npm-debug.log*
 
-# Lokale Umgebungsvariablen
-.env
-.env.local
+# Zensical site_dir
+docs/site/
 
 ## Terraform
 # Local provider-cache

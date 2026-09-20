@@ -1,4 +1,26 @@
 # Calendar
+# Documentation
+The documentation is present with the tool `zensical`.
+To build these locally, an additional Python tool must be installed.
+
+## With uv
+```bash
+uv sync --group docs
+```
+
+## With pip
+```bash
+pip install zensical
+```
+
+The documentation can then be built locally and displayed in the browser.
+
+```shell
+zensical serve
+```
+
+The documentation can be downloaded under the link [http://127.0.0.1:8000/](http://127.0.0.1:8000/) to view the
+documentation.
 Calendar Application for the modul DevOps.
 The calendar shows all events I enter for me and others.
 
