@@ -1,3 +1,36 @@
+## Node.js
+node_modules/
+
+# Logs
+npm-debug.log*
+
+# Zensical site_dir
+docs/site/
+
+## Terraform
+# Local provider-cache
+.terraform/
+
+# State with secrets
+*.tfstate
+*.tfstate.*
+
+# Variable files
+*.tfvars
+```
+
+## IDEs und Betriebssystem
+
+# Personal vs-code settings
+.vscode/
+
+# JetBrains
+.idea/
+
+# macOS
+.DS_Store
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -98,7 +131,7 @@ ipython_config.py
 #   Similar to Pipfile.lock, it is generally recommended to include uv.lock in version control.
 #   This is especially recommended for binary packages to ensure reproducibility, and is more
 #   commonly ignored for libraries.
-# uv.lock
+uv.lock
 
 # poetry
 #   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.

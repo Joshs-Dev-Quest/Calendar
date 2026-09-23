@@ -1,0 +1,47 @@
+[project]
+site_name = "Calendar Documentation"
+docs_dir = "docs"
+site_dir = "docs/site"
+repo_url = "https://github.com/Joshs-Dev-Quest/Calendar"
+site_description = "Private selfhosted calendar"
+edit_uri = '-/edit/main/docs/'
+extra_javascript = [
+  "https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js",
+  "javascripts/tablesort.js",
+]
+
+nav = [
+  {"Home" = "index.md"},
+  {"Architecture" = [
+    {"Overview" = "architecture/overview.md"},
+    {"C4 Diagram" = "architecture/C4.md"},
+    {"API Requirements (freezed)" = "architecture/requirements.md"},
+    {"ADR" = [
+      {"Overview" = "adr/00-overview.md"},
+      {"Template" = "adr/00-template.md"},
+      {"0001-Project" = "adr/0001.md"},
+      {"0002-Zensical" = "adr/0002.md"}
+    ]},
+  ]},
+  {"Contribution" = "CONTRIBUTION.md"},
+  {"Deployment" = "DEPLOYMENT.md"},
+  {"Monitoring" = "MONITORING.md"},
+  {"Declaration" = "DECLARATION.md"}
+]
+
+[project.theme]
+custom_dir = "docs/overrides"
+
+[[project.theme.palette]]
+scheme = "default"
+palette.primary = "blue"
+palette.accent = "cyan"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+scheme = "slate"
+palette.primary = "red"
+palette.accent = "yellow"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to light mode"

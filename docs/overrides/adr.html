@@ -1,0 +1,35 @@
+{% extends "main.html" %}
+
+{% block content %}
+  {% if page.meta %}
+    <div class="adr-meta">
+      {% if page.meta.status %}
+        <span class="adr-meta__status"><strong>Status:</strong> {{ page.meta.status }}</span>
+      {% endif %}<br>
+
+      {% if page.meta.last_update %}
+        <span class="adr-meta__last_update"><strong>Last Update:</strong> {{ page.meta.last_update }}</span>
+      {% endif %}<br>
+
+      {% if page.meta.deciders %}
+        <span class="adr-meta__deciders">
+          <strong>Deciders:</strong> {{ page.meta.deciders | join(", ") }}
+        </span>
+      {% endif %}<br>
+      
+      {% if page.meta.consulted %}
+        <span class="adr-meta__consulted">
+          <strong>Consulted:</strong> {{ page.meta.consulted | join(", ") }}
+        </span>
+      {% endif %}<br>
+
+      {% if page.meta.informed %}
+        <span class="adr-meta__informed">
+          <strong>Informed:</strong> {{ page.meta.informed | join(", ") }}
+        </span>
+      {% endif %}
+    </div>
+  {% endif %}
+
+  {{ super() }}
+{% endblock %}
