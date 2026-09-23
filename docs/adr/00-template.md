@@ -1,9 +1,10 @@
 ---
-status: "{proposed | rejected | accepted | deprecated | … | superseded by '[ADR-0005](0005-example.md)'}"
+status: "{proposed | rejected | accepted | deprecated | … | superseded by '[ADR-0005](0005-example.md)}"
 date: "{YYYY-MM-DD when the decision was last updated}"
 deciders: { list everyone involved in the decision }
 consulted: { list everyone whose opinions are sought (typically subject-matter experts); and with whom there is a two-way communication }
 informed: { list everyone who is kept up-to-date on progress; and with whom there is a one-way communication }
+template: adr.html
 ---
 
 # {short title of the solved problem and solution}
@@ -19,16 +20,16 @@ management systems.}
 
 ## Decision Drivers
 
-* {decision driver 1, e.g., a force, facing concern, …}
-* {decision driver 2, e.g., a force, facing concern, …}
-* … <!-- numbers of drivers can vary -->
+- {decision driver 1, e.g., a force, facing concern, …}
+- {decision driver 2, e.g., a force, facing concern, …}
+- … <!-- numbers of drivers can vary -->
 
 ## Considered Options
 
-* {title of option 1}
-* {title of option 2}
-* {title of option 3}
-* … <!-- numbers of options can vary -->
+- {title of option 1}
+- {title of option 2}
+- {title of option 3}
+- … <!-- numbers of options can vary -->
 
 ## Decision Outcome
 
@@ -39,9 +40,9 @@ driver | which resolves force {force} | … | comes out best (see below)}.
 
 ### Consequences
 
-* Good, because {positive consequence, e.g., improvement of one or more desired qualities, …}
-* Bad, because {negative consequence, e.g., compromising one or more desired qualities, …}
-* … <!-- numbers of consequences can vary -->
+- Good, because {positive consequence, e.g., improvement of one or more desired qualities, …}
+- Bad, because {negative consequence, e.g., compromising one or more desired qualities, …}
+- … <!-- numbers of consequences can vary -->
 
 <!-- This is an optional element. Feel free to remove. -->
 
@@ -60,24 +61,24 @@ Although we classify this element as optional, it is included in most ADRs.}
 <!-- This is an optional element. Feel free to remove. -->
 {example | description | pointer to more information | …}
 
-* Good, because {argument a}
-* Good, because {argument b}
+- Good, because {argument a}
+- Good, because {argument b}
 
 <!-- use "neutral" if the given argument weights neither for good nor bad -->
 
-* Neutral, because {argument c}
-* Bad, because {argument d}
-* … <!-- numbers of pros and cons can vary -->
+- Neutral, because {argument c}
+- Bad, because {argument d}
+- … <!-- numbers of pros and cons can vary -->
 
 ### {title of another option}
 
 {example | description | pointer to more information | …}
 
-* Good, because {argument a}
-* Good, because {argument b}
-* Neutral, because {argument c}
-* Bad, because {argument d}
-* …
+- Good, because {argument a}
+- Good, because {argument b}
+- Neutral, because {argument c}
+- Bad, because {argument d}
+- …
 
 <!-- This is an optional element. Feel free to remove. -->
 

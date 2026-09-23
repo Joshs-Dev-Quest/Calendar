@@ -7,6 +7,6 @@ In the event that a decision has to be made, the decision should be written down
 For keeping a structural record the decision will be recorded by filling out the [template](00-template.md)
 
 # Decisions
-## [01 - Calendar project decision](01-project-subject)
+## [01 - Calendar project decision](01-project)
 
 ## [02 - Zensical documentation tool](02-tool-zensical)
