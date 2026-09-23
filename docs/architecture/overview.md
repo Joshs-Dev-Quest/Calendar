@@ -2,4 +2,5 @@
 
 Here all components of the project are linked to their documentation.
 
-[Calendar C4](C4.md)
+- [Freezed API requirements](requirements.md)
+- [Calendar C4](C4.md)

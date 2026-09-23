@@ -1,4 +1,7 @@
 # Contribution as guest
+Fork the repository and create a pull request if you are finished.
+
+# Found a bug?
 Feel free to open an issue if you encounter a bug or have an idea to make the application better.
 
 Due this is a school project, don't know if I keep this project running afterwards.

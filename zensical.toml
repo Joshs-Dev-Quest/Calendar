@@ -5,23 +5,32 @@ site_dir = "docs/site"
 repo_url = "https://github.com/Joshs-Dev-Quest/Calendar"
 site_description = "Private selfhosted calendar"
 edit_uri = '-/edit/main/docs/'
+extra_javascript = [
+  "https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js",
+  "javascripts/tablesort.js",
+]
 
 nav = [
   {"Home" = "index.md"},
-  {"Contribution" = "CONTRIBUTION.md"},
   {"Architecture" = [
-    {"Overview" = "architecture/overview.md"}
+    {"Overview" = "architecture/overview.md"},
+    {"C4 Diagram" = "architecture/C4.md"},
+    {"API Requirements (freezed)" = "architecture/requirements.md"},
+    {"ADR" = [
+      {"Overview" = "adr/00-overview.md"},
+      {"Template" = "adr/00-template.md"},
+      {"0001-Project" = "adr/0001.md"},
+      {"0002-Zensical" = "adr/0002.md"}
+    ]},
   ]},
-  {"ADS" = [
-    {"Overview" = "decisions/00-overview.md"},
-    {"Template" = "decisions/00-template.md"},
-    {"Decisions" = [
-       {"01-Project" = "decisions/01-project.md"},
-       {"02-Zensical" = "decisions/02-tool-zensical.md"}
-    ]}
-  ]}
+  {"Contribution" = "CONTRIBUTION.md"},
+  {"Deployment" = "DEPLOYMENT.md"},
+  {"Monitoring" = "MONITORING.md"},
+  {"Declaration" = "DECLARATION.md"}
 ]
 
+[project.theme]
+custom_dir = "docs/overrides"
 
 [[project.theme.palette]]
 scheme = "default"
